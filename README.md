@@ -29,6 +29,11 @@ With the gaming environment booming on Polkadot, it will be helpful to improve o
 
 With Polkadot's NFT infrastructure, I would also like to include feature where I can integrate a player body in the game that would shoot arrows to burst the bubbles and top players can create their own skin and sell it as NFT and other players can use those NFT to play the game. We can also make different NFTs have different attributes that would allow the game to be played with different guns for different NFTs that would make the game more interesting.
 
+
+## Demo Video - 
+https://www.loom.com/share/2a7a0c0cb6164e52aa29ac78f3178ddd?sid=ecce3bac-34c0-4a86-b4a6-04007d2732f3
+
+
 ## Game Flow - 
 
 ### 1. First Connect to Wallet if not already connected
@@ -51,9 +56,6 @@ With Polkadot's NFT infrastructure, I would also like to include feature where I
 
 ### 7. At the end the payback is received and game ends
 <img width="1396" alt="Screenshot 2024-07-28 at 11 08 13 AM" src="https://github.com/user-attachments/assets/bb41e9d9-36f8-4b27-b2ad-f47d69636cc8">
-
-
-
 
 
 
