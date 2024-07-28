@@ -321,9 +321,12 @@ function App() {
   return (
     <div className="App">
       <div className="header">
+        <div class="header-container">
+          <h1 className="siteName">Bubble Burster</h1>
+        </div>
         <div className="connectWallet">
           {selected !== null ? (
-            <button className="fontStyle">Connected {selected}</button>
+            <button className="connectWalletButton">Connected {selected}</button>
           ) : (
             <button className="fontStyle" onClick={onConnectClick}>
               Connect to Wallet
