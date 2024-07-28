@@ -328,7 +328,7 @@ function App() {
           {selected !== null ? (
             <button className="connectWalletButton">Connected {selected}</button>
           ) : (
-            <button className="fontStyle" onClick={onConnectClick}>
+            <button className="connectWalletButton" onClick={onConnectClick}>
               Connect to Wallet
             </button>
           )}
