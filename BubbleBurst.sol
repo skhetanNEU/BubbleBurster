@@ -26,7 +26,7 @@ contract BubbleBurst is ERC721, Ownable {
             uint256 totalBurst = ((512 - amountLeft) * 1e18 / 512);
             totalBurst = totalBurst / 1e16;
             totalBurst = (totalBurst * PLAY_COST) / 100;
-            reward = totalBurst - 150000000000000000;
+            reward = totalBurst - 200000000000000000;
         }
         currentPlayerList[msg.sender] = 0;
         payable(msg.sender).transfer(reward);
