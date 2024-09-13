@@ -163,7 +163,7 @@ function App() {
           { dx: -1, dy: -1 },
         ];
         for (let i = 0; i < 4; i++) {
-          const size = 128;
+          const size = 144;
           const x = Math.random() * (canvas.width - size * 2) + size;
           const y = Math.random() * (canvas.height - size * 2) + size;
           const direction = directions[i];
