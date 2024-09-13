@@ -246,7 +246,7 @@ function App() {
                   ...bubble,
                   size: newSize,
                   lastBurst: currentTime,
-                  dx: Math.cos(angle) * Math.min(bubble.dx * 1.5, 1.5),
+                  dx: Math.cos(angle) * Math.min(bubble.dx * 1.5, 2),
                   dy: Math.sin(angle) * Math.min(bubble.dy * 1.5, 1.5),
                 };
                 const newBubble2 = {
