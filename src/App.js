@@ -32,7 +32,7 @@ function App() {
     setHornSound(new Audio('horn.mp3'));
   }, []);
 
-  let publicCost = 1000000000000000000;
+  let publicCost = 2000000000000000000;
 
   useEffect(() => {
     async function checkNetwork() {
