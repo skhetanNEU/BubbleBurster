@@ -237,7 +237,7 @@ function App() {
         prevBubbles.forEach((bubble) => {
           const distance = Math.sqrt((x - bubble.x) ** 2 + (y - bubble.y) ** 2);
           if (distance < bubble.size) {
-            if (currentTime - bubble.lastBurst >= 2000) {
+            if (currentTime - bubble.lastBurst >= 1000) {
               if (bubble.size > 16) {
                 document.getElementById('largeBubbleSound').play();
                 const newSize = bubble.size / 2;
