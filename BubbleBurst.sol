@@ -5,7 +5,7 @@ import "@openzeppelin/contracts@4.4.1/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts@4.4.1/access/Ownable.sol";
 
 contract BubbleBurst is ERC721, Ownable {
-    uint256 private PLAY_COST = 1000000000 gwei;
+    uint256 private PLAY_COST = 2000000000 gwei;
     mapping(address => uint256) private currentPlayerList;
 
     constructor() ERC721("BubbleBurstGame", "BBG" ) {
