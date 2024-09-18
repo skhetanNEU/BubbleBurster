@@ -101,7 +101,7 @@ function App() {
         window.location.reload();
       });
     } else {
-      NotificationManager.error('Please connect metamask', '', 3000);
+      NotificationManager.error('Please connect with metamask wallet', '', 3000);
     }
   }
 
