@@ -329,7 +329,7 @@ function App() {
             <button className="connectWalletButton">Connected {selected}</button>
           ) : (
             <button className="connectWalletButton" onClick={onConnectClick}>
-              Connect to Wallet
+              Connect to Metamask Wallet
             </button>
           )}
         </div>
