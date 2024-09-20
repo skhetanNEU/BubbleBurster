@@ -171,8 +171,8 @@ function App() {
             x,
             y,
             size,
-            dx: direction.dx * 3,
-            dy: direction.dy * 3,
+            dx: direction.dx * 4,
+            dy: direction.dy * 4,
             lastBurst: 0,
           });
         }
