@@ -17,7 +17,7 @@ const abi = JSON.parse(loadedData);
 
 function App() {
   const [bubbles, setBubbles] = useState([]);
-  const [gameTime, setGameTime] = useState(80);
+  const [gameTime, setGameTime] = useState(100);
   const [gameOver, setGameOver] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
   const canvasRef = useRef(null);
