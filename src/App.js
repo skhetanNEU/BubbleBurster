@@ -164,7 +164,7 @@ function App() {
         ];
         for (let i = 0; i < 4; i++) {
           const size = 144;
-          const x = Math.random() * (canvas.width - size * 1.5) + size;
+          const x = Math.random() * (canvas.width - size * 2) + size;
           const y = Math.random() * (canvas.height - size * 1.5) + size;
           const direction = directions[i];
           newBubbles.push({
